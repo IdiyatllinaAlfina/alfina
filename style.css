@@ -1,0 +1,58 @@
+nav {
+    background:  #7FFF00; 
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+}
+
+body {
+    background: linear-gradient(to right,#04B404,#D0F5A9);
+    /*Про префиксы знаю*/
+}
+
+nav > ul {
+    overflow: hidden;
+    margin: 0 auto;
+    display: table;
+    list-style: none;
+    height: 30px;
+}
+
+nav > ul > li {
+    float:left;
+    height: 100%;
+}
+
+nav > ul > li > a {
+    display: block;
+    color: #666;
+    text-decoration: none;
+    height: 30px;
+    padding: 5px 10px 0 10px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+nav > ul > li >a:hover {
+    background: #666;
+    color:  #7FFF00;
+    text-decoration: underline;
+}
+
+.wrapper {
+    margin-top: 60px;
+}
+
+.wrapper > p {
+    background: rgba(255,255,255,0.1);
+    padding: 5px;
+    color:  #fff;
+    text-indent: 20px;
+}
+
+.wrapper > p:first-letter {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
